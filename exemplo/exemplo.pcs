@@ -1,0 +1,96 @@
+Merge(A, início, meio, fim)
+ n1 = meio – início + 1
+ n2 = fim – meio
+ sejam E[1..n1 + 1] e D[1..n2 + 1] novos vetores
+ for i = 1 to n1
+   E[i] = A[início + i – 1]
+ for j = 1 to n2
+
+for each x in 9
+
+N = {1, 2, 3}
+for each i \in  N
+ 5 ** 10 5 mod 4
+  print(i)
+  Seja l um novo Produto
+ 
+ NIL   D[j] = A[meio + j]
+ E[n1 + 1] = ∞ // para saber qdo vetor acabou
+ D[n2 + 1] = ∞ // para saber qdo vetor acabou
+ i = 1
+ j = 1
+for k = início to fim
+   if E[i] <= D[j]
+     A[k] = E[i]
+     i = i + 1
+   else
+     A[k] = D[j]
+     j = j + 1
+
+Sejam A[1..3] e B[1..5] novos vetores
+Seja A um novo vetor
+Seja A uma nova Palavra
+error "Mensagem inválida"
+"a" "b" "c"
+\lfloor x\rfloor  > 5
+A[1] = 2
+A[2] = 13
+A[3] = 99
+
+x = 1
+while x >= 0
+  print("oi")
+  x = x – 1
+
+x = 2
+repeat
+  print("ok")
+  x = x – 1
+until x == 0
+
+for i = 1 to 2
+  print(i)
+
+for i = 2 downto 1
+  print(i)
+
+
+
+x[5] = 1
+
+if x ≥ 5
+  a = 2
+else if x > 0
+  a = 3
+else
+  a = 5
+
+x = 1
+y = 2
+if x == 0 and y == 1
+  print('Condição verdadeira')
+
+N = {1, 2, 3}
+for each i  N
+  print(i)
+  TRUE
+  FALSE
+  a NIL \lfloor  as \rfloor \exists >= -> \sqrt 10 \alpha  >= 4 
+  \empty  > 0
+Soma(a, b, c)
+  return a + b + c
+
+Soma(sa)
+  Seja P uma nova pessoa
+  X(P)
+  print(P.nome)
+  x.algo
+
+  Seja L uma nova lista
+  Seja P e Q novas pessoas
+  Sejam A[1..3] e B[1..5] novos vetores
+  A[1] = 2
+  A[2] = 13
+  A[3] = 99
+
+

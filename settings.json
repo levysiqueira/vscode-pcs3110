@@ -1,0 +1,99 @@
+        {
+            "language": "pcs3110",
+            "adjustCursorMovement":true,
+            "revealOn": "none",
+            "substitutions": [
+                {
+                    "ugly": "->",
+                    "pretty": "→"
+                },
+                {
+                    "ugly": "\\\\inf\\s",
+                    "pretty": "∞"
+                },
+                {
+                    "ugly": "\\\\sqrt\\s",
+                    "pretty": "√",
+                },
+                {
+                    "ugly": ">=",
+                    "pretty": "≥",
+                    "pre": "[^=\\-<>]|^",
+                    "post": "[^=\\-<>]|$"
+                },
+                {
+                    "ugly": "<=",
+                    "pretty": "≤",
+                    "pre": "[^=\\-<>]|^",
+                    "post": "[^=\\-<>]|$"
+                },
+                {
+                    "ugly": "\\\\alpha\\s",
+                    "pretty": "α"
+                },
+                {
+                    "ugly": "\\\\beta\\s",
+                    "pretty": "β"
+                },
+                {
+                    "ugly": "\\\\gamma\\s",
+                    "pretty": "γ"
+                },
+                {
+                    "ugly": "\\\\delta\\s",
+                    "pretty": "δ"
+                },
+                {
+                    "ugly": "\\\\forall\\s",
+                    "pretty": "∀"
+                },
+                {
+                    "ugly": "\\\\exists\\s",
+                    "pretty": "∃"
+                },
+                {
+                    "ugly": "\\\\in\\s",
+                    "pretty": "∈"
+                },
+                {
+                    "ugly": "\\\\notin\\s",
+                    "pretty": "∉"
+                },
+                {
+                    "ugly": "\\\\empty\\s",
+                    "pretty": "∅"
+                },
+                {
+                    "ugly": "\\\\subseteq\\s",
+                    "pretty": "⊆"
+                },
+                {
+                    "ugly": "\\\\subset\\s",
+                    "pretty": "⊂"
+                },
+                {
+                    "ugly": "\\\\union\\s",
+                    "pretty": "⋃"
+                },
+                {
+                    "ugly": "\\\\intersect\\s",
+                    "pretty": "⋂"
+                },
+                {
+                    "ugly": "\\\\lceil\\s",
+                    "pretty": "⌈"
+                },
+                {
+                    "ugly": "\\\\rceil\\s",
+                    "pretty": "⌉"
+                },
+                {
+                    "ugly": "\\\\lfloor\\s",
+                    "pretty": "⌊"
+                },
+                {
+                    "ugly": "\\\\rfloor\\s",
+                    "pretty": "⌋"
+                }
+            ]
+        }

@@ -1,0 +1,21 @@
+{
+    "name": "pcs3110",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": ">=0.9.0-pre.1"
+    },
+    "publisher": "Fábio Levy Siqueira",
+    "displayName": "Pseudocódigo de PCS3110 - Poli-USP",
+    "contributes": {
+        "languages": [{
+            "id": "pcs3110",
+            "aliases": ["PCS3110", "pcs3110"],
+            "extensions": [".pcs3110",".pcs"]
+        }],
+        "grammars": [{
+            "language": "pcs3110",
+            "scopeName": "source.pcs",
+            "path": "./syntaxes/pcs3110.tmGrammar.json"
+        }]
+    }
+}

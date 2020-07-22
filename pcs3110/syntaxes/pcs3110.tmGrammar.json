@@ -1,0 +1,74 @@
+{
+    "scopeName": "source.pcs",
+    "patterns": [{ "include": "#expression" }],
+    "repository": {
+      "expression": {
+        "patterns": [{ "include": "#functions" }, { "include": "#special" }, { "include": "#keywords" }, { "include": "#expressions" }, { "include": "#comments" }, { "include": "#string" }]
+      },
+      "keywords": {
+        "patterns": [{ "include": "#conditions" }, {"include": "#return"}, { "include": "#math" }, { "include": "#mod" }, { "include": "#reserved" }, { "include": "#loops" }, { "include": "#declaration" }]
+      },
+      "functions": {
+        "begin": "^\\S+\\(",
+        "end": "\\)",
+        "name": "markup.bold.function.pcs3110"
+      },
+      "conditions": {
+        "match": "^\\s*\\b(if|else|else)",
+        "name": "keyword.control.pcs3110"
+      },
+      "expressions": {
+        "match": "\\s\\b(and|or|not)\\s",
+        "name": "keyword.control.pcs3110"
+      },
+      "return": {
+        "match": "^\\s*\\b(return)",
+        "name": "keyword.control.pcs3110"
+      },
+      "loops": {
+        "patterns": [{ "include": "#for-loop" }, { "include": "#repeat-until" }, { "include": "#while" }]
+      },
+      "for-loop": {
+        "match": "(^\\s*\\b(for)\\b(\\s\\b(each)\\b)?)|(\\s\\b(to)\\b\\s)|(\\s\\b(downto)\\b\\s)|(\\s\\b(in)\\b\\s)",
+        "name": "keyword.control.pcs3110"
+      },
+      "repeat-until": {
+        "match": "^\\s*\\b(repeat|until)\\b",
+        "name": "keyword.control.pcs3110"
+      },
+      "while": {
+        "match": "^\\s*\\b(while)\\b",
+        "name": "keyword.control.pcs3110"
+      },
+      "declaration": {
+        "match": "(^\\s*(\\b(Sejam)\\b|\\b(Seja)\\b))|\\s\\b(um novo)\\b\\s|\\s\\b(uma nova)\\b\\s|\\s\\b(novos)\\b\\s|\\s\\b(novas)\\b\\s",
+        "name": "keyword.control.pcs3110"
+      },
+      "comments": {
+        "name": "comment.line.pcs3110",
+        "begin": "(//)",
+        "end": "($)"
+      },
+      "string": {
+        "name": "string.quoted.pcs3110",
+        "begin": "(\\'|\\\")",
+        "end": "(\\1)"
+      },
+      "special": {
+        "match": "^\\s*\\b(print|error)\\b",
+        "name": "storage.type.function.pcs3110"
+      },
+      "reserved": {
+        "match": "\\s\\b(NIL|TRUE|FALSE)\\b",
+        "name": "constant.language.pcs3110"
+      },
+      "math": {
+        "match": "\\b(\\+|\\-|\\*\\*|\\*|/)\\b",
+        "name": "keyword.operator.pcs3110"
+      },
+      "mod": {
+        "match": "\\s*\\b(mod)\\b",
+        "name": "markup.italic"
+      }
+    }
+  }
