@@ -4,7 +4,7 @@
 
 #### Prof. Dr. Fábio Levy Siqueira
 
-Este projeto permite que as [palavras reservadas de PCS3110](Pseudocodigo (v04).pdf) - baseada na linguagem usada pelo livro do Cormen, Leiserson, Rivest e Stein (2009) - sejam reconhecidas no VSCode. Com isso são disponíveis as seguintes *features*:
+Este projeto permite que as [palavras reservadas de PCS3110](Pseudocodigo-v04.pdf) - baseada na linguagem usada pelo livro do Cormen, Leiserson, Rivest e Stein (2009) - sejam reconhecidas no VSCode. Com isso são disponíveis as seguintes *features*:
 
 - Reconhecimento das palavras reservadas de PCS3110 (*syntax highlighting*).
 - Possibilidade de usar símbolos matemáticos no código (usando o plugin [Prettify Symbols Mode](https://marketplace.visualstudio.com/items?itemName=siegebell.prettify-symbols-mode).
@@ -25,7 +25,7 @@ Note que este projeto **NÃO** compila o código, sugere comandos ou verifica a 
 8. Teste usando o [exemplo.pcs](/exemplo/exemplo.pcs)
 
 
-##Atalhos para símbolos
+## Atalhos para símbolos
 Estão disponíveis os seguintes atalhos para símbolos.
 
 Texto | Resultado
@@ -53,7 +53,7 @@ Texto | Resultado
 \\lfloor | ⌊
 \\rfloor | ⌋
 
-##Bugs
+## Bugs
 Ao inserir um símbolo, o cursor fica antes do símbolo (apesar de estar depois dele). Isso é uma questão do plugin *Prettify Symbols Mode*.
 
 Caso haja algum problema de implementação, abra uma Issue no GitHub ou faça um Pull request. Qualquer coisa entre em contato comigo (fabio@levysiqueira.com.br).
