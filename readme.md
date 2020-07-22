@@ -16,11 +16,17 @@ Note que este projeto **NÃO** compila o código, sugere comandos ou verifica a 
 2. [Adicione o plugin Prettify Symbols Mode](https://marketplace.visualstudio.com/items?itemName=siegebell.prettify-symbols-mode)
 3. Copie a pasta "pcs3110" ([o arquivo plugin.zip possui a pasta](plugin.zip)) para a pasta dos plugins do VSCode (no Windows é a pasta %USERPROFILE%\\.vscode\extensions
 4. Vá em *Settings* (Ctrl + ,) -> *Extensions* -> *Prettify symbols mode* e escolha *Edit in settings.json* em *Prettify Symbols Mode: Substitutions*
+
 ![Editar settings.json](/images/plugin.png)
+
 5. No final do arquivo haverá uma sequência "}", "]" e "}" como mostrado abaixo
+
 ![Local da edição](/images/local.png)
+
 6. Depois do "}" antes do "]" (indicado acima) coloque uma vírgula (,) e copie o conteúdo de [settings.json](settings.json), resultado como mostrado abaixo
+
 ![Resultado da edição settings.json](/images/resultado.png)
+
 7. Salve o arquivo e o reinicie o VSCode
 8. Teste usando o [exemplo.pcs](/exemplo/exemplo.pcs)
 
