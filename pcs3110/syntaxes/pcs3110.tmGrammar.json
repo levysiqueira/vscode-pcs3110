@@ -14,11 +14,11 @@
         "name": "markup.bold.function.pcs3110"
       },
       "conditions": {
-        "match": "^\\s*\\b(if|else|else)",
+        "match": "^\\s*\\b(if|else if?)\\b",
         "name": "keyword.control.pcs3110"
       },
       "expressions": {
-        "match": "\\s\\b(and|or|not)\\s",
+        "match": "\\s\\b(and|or|not)\\b",
         "name": "keyword.control.pcs3110"
       },
       "return": {
@@ -59,11 +59,11 @@
         "name": "storage.type.function.pcs3110"
       },
       "reserved": {
-        "match": "\\s\\b(NIL|TRUE|FALSE)\\b",
+        "match": "\\b(NIL|TRUE|FALSE)\\b",
         "name": "constant.language.pcs3110"
       },
       "math": {
-        "match": "\\b(\\+|\\-|\\*\\*|\\*|/)\\b",
+        "match": "\\b(\\+|\\-|\\*\\*|\\*|/|\\!=)\\b",
         "name": "keyword.operator.pcs3110"
       },
       "mod": {
