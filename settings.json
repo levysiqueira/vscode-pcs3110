@@ -94,6 +94,10 @@
                 {
                     "ugly": "\\\\rfloor\\s",
                     "pretty": "⌋"
+                },
+                {
+                    "ugly": "!=",
+                    "pretty": "≠"
                 }
             ]
         }
