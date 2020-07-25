@@ -14,7 +14,7 @@
         "name": "markup.bold.function.pcs3110"
       },
       "conditions": {
-        "match": "^\\s*\\b(if|else if?)\\b",
+        "match": "^\\s*\\b(if|else(\\s(if))?)\\b",
         "name": "keyword.control.pcs3110"
       },
       "expressions": {
